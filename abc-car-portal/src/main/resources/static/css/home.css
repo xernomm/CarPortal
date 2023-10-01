@@ -1,0 +1,79 @@
+.blur-backg {
+    
+   padding: 200px;
+    backdrop-filter: blur(10px);
+    z-index: 0;
+    /* push the element behind the jumbotron content */
+  }
+ 
+  
+  .main-backg{
+    background-image: url("/images/car2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    margin: none !important;
+  }
+ footer a{
+  text-decoration: none !important;
+ }
+ footer a :hover{
+  text-decoration: underline !important;
+ }
+  .jumbotron{
+    padding: 0% !important;
+    margin: 0% !important;
+  }
+  .card{
+    border-radius: 10px;
+    padding: 0% !important;
+    margin: 0% !important;
+  }
+
+  .sellcars{
+    min-height: 400px !important;
+    min-width: 400px !important;
+  }
+  .card1:hover {
+    color: rgb(255, 255, 255);
+ 
+    transition: all 0.5s ease-out;
+    background-image: url('/img/neighborhood.jpg');
+    background-size: cover;
+  }
+
+   .card1:hover a{
+    color: rgb(255, 255, 255);
+
+
+  }
+
+  .card2:hover {
+    color: rgb(255, 255, 255);
+    
+    transition: all 0.5s ease-out;
+    background-image: url('/img/store.jpg');
+    background-size: cover;
+  }
+
+   .card2:hover a{
+    color: rgb(255, 255, 255);
+
+
+  }
+
+  .cardblur{
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+  }
+
+  .cardblur:hover{
+    backdrop-filter: blur(5px);
+    
+    border-radius: none;
+
+  }
+
+  .modal{
+    z-index: 999 !important;
+  }
